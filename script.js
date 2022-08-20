@@ -19,7 +19,10 @@ grades.forEach(element => {
 
 function search() {
   let inputValue = document.getElementById("input").value;
-
+ 
+  if(inputValue==""){
+    console.log("الدرجة غير موجوده")
+  }
    
   // طبّق الخطوة 7 أسفل هذا الكومنت
 
